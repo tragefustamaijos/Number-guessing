@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "smth.css">
+</head>
+<body>
+    <h1> Number guessing game</h1> <hr>
+
+    <div id = "toate">
+        <input id = "mini" type="number" placeholder="Enter a minimum" for ="submit">
+        <input id= "maxi" type="number" placeholder="Enter a maximum" for = "submit">
+        <button for = "inputs" id = "submit" onclick="ready()" for = "maxi"> Submit</button>
+    </div>
+    
+    <div id = "guessing" style="display: none">
+        <h2> Enter your guess, should thou dare</h1>
+        <input onkeydown="f()" type="number" id = "input" >
+        <button id = "attempt" onclick="attempts()" for = "input"> attempt</button>
+    </div>
+    <h1 id = "text"></h1>
+    <button id = "retry" style="display: none;"> Retry </button>
+    <script src = "smth.js"></script>
+</body>
+</html>

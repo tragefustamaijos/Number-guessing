@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(75, 197, 75);
+}
+
+h1{
+    text-align: center;
+    color: rgb(11, 60, 103);
+    font-size: 30px
+}
+#toate{
+    text-align: center;
+}
+button{
+    border-radius: 30px;
+    border: none;
+    color: aliceblue;
+    background-color: coral;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+div{
+    text-align: center;
+    background-color: rgb(3, 82, 99);
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 3px;
+}
+#text{
+    text-align: center;
+    color: rgb(72, 0, 0);
+    color: rgb(0, 24, 46)
+
+}
+
+input{
+    font-size-adjust: inherit;
+}
+
+#toate{
+    padding: 20px;
+
+}
